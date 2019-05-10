@@ -54,7 +54,8 @@ Temporary Items
 # 环境文件
 .uini
 ErrorFiles
-
+u.php
+logs
 # 缓存文件夹
 update/
 application/logs/
