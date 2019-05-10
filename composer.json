@@ -1,0 +1,29 @@
+{
+    "name": "a67793581/logger",
+    "description": "a PHP generic file log class",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "kaluo",
+            "email": "284474102@qq.com"
+        }
+    ],
+    "keywords": [
+        "logger",
+        "php",
+        "通用日志类"
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=5.3.7"
+    },
+    "require-dev": {
+        "php": ">=5.3.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "logger\\": "src/"
+        }
+    }
+}
