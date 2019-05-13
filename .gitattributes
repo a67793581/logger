@@ -26,4 +26,4 @@
 /.travis.yml export-ignore
 /.editorconfig export-ignore
 /Demo export-ignore
-/认证中心.* export-ignore
+/demo export-ignore
