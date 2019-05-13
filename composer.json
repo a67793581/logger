@@ -1,6 +1,6 @@
 {
     "name": "a67793581/logger",
-    "description": "a PHP generic file log class",
+    "description": "EN:a PHP generic file log class.ZH:这是一个通用日志类",
     "type": "library",
     "license": "MIT",
     "authors": [
