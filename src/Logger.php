@@ -39,7 +39,7 @@ class Logger
             throw new Exception('文件名不可以是空值,并且不能包含特殊字符，如有特殊字符会被替换为下划线', '001');
         }
         $log_file = $this->replace_special_char($log_file);
-        defined('LOG_PATH') or define('LOG_PATH', realpath(__DIR__).DIRECTORY_SEPARATOR.'logs'.DIRECTORY_SEPARATOR); // 日志目录
+        defined('LOG_PATH') or define('LOG_PATH', realpath(dirname(dirname(__FILE__))).DIRECTORY_SEPARATOR.'logs'.DIRECTORY_SEPARATOR); // 日志目录
         $this->log_name = LOG_PATH.$log_file.date('_Y_m_d').'.log';
     }
 
