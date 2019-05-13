@@ -1,11 +1,11 @@
 {
-    "name": "a67793581/logger",
+    "name": "carlo/logger",
     "description": "EN:a PHP generic file log class.ZH:这是一个通用日志类",
     "type": "library",
     "license": "MIT",
     "authors": [
         {
-            "name": "kaluo",
+            "name": "carlo",
             "email": "284474102@qq.com"
         }
     ],
